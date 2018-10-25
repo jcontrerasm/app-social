@@ -14,6 +14,10 @@
   "include": [
     "./src/**/*"
   ],
+  "exlude": [
+    "./src/**/*",
+    "./functions/*"
+  ],
   "awesomeTypescriptLoaderOptions": {
     "transpileOnly": true,
   }
